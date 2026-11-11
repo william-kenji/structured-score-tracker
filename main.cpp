@@ -22,7 +22,6 @@ int main()
     set_scores(students, SIZE);
     print(students, SIZE);
 
-    cout << char(7); // remove!!
     return 0;
 }
 
@@ -51,5 +50,4 @@ void print(Student students[], int size)
     {
         cout << left << setw(24) << students[c].name << right << students[c].score << endl;
     }
-    cout << char(7) << endl;
 }
