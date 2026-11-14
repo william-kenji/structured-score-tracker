@@ -48,6 +48,6 @@ void print(Student students[], int size)
     cout << left << setw(21) << "Name" << right << "Score" << endl;
     for (int c = 0; c < size; c++)
     {
-        cout << left << setw(24) << students[c].name << right << students[c].score << endl;
+        cout << left << setw(23) << students[c].name << right << setw(3) << students[c].score << endl;
     }
 }
